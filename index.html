@@ -26,6 +26,7 @@
     <!-- FontAwesome v5.0.6; code after any Themes and Bootstrap -->
     <!-- Search icons - https://fontawesome.com/icons?d=gallery -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script type="text/javascript" src="javascript/jquery.js"></script>
 
     <!-- OUTLINER for development purposes Only - To be commented out for Production releases -->
         <style type="text/css"></style>
@@ -79,77 +80,78 @@
                         col-md-12
                         col-lg-12">
                 <div class="jumbotron jumbotron-fluid-1">
-                    <div class="container">
-                        <h1 class="display-4"></h1>
-                        <p class="lead"></p>
-                    </div>
+                        <!-- <img class="img-responsive" src="image/witcher_wide.jpg" alt="text"> -->
                 </div>
             </div>
         </div>
 
-    <section id="About">
-        <div class="row">
-            <div class="col-xs-12
-            col-sm-12
-            col-md-12
-            col-lg-12">
-            <input type="checkbox" class="read-more-state" id="post-1" />
-            <h2>About the monster hunters:</h2>
-            <br>
-            <div class="read-more-wrap">A witcher (also wiccan or hexer) is someone who has undergone extensive training, 
-                ruthless mental and physical conditioning, and mysterious rituals (which take place at "witcher schools" such as Kaer Morhen) 
-                in preparation for becoming an itinerant monster slayer for hire. Geralt, the central character in Andrzej Sapkowski's Witcher series 
-                and the subsequent games inspired by them, is said in the stories to be one of the greatest witchers; 
-                he is certainly legendary, but whether famous or infamous is more open to interpretation 
-                <figure class="article-thumb"> 	
+        <section id="About">
+            <div class="row">
+                <div class="col-xs-12
+                            col-sm-12
+                            col-md-12
+                            col-lg-12">
+                    <figure class="article-thumb"> 	
                         <img src="image\gerald.png" id="pic">
                         </img>
-                            <figcaption> 		 			
-                                    <a href="image\gerald.png"></a>
-                                    <p class="caption">Geralt of Rivia, a Witcher and protagonist of <i>The Witcher</i> series.</p> 		 	
-                            </figcaption> 
+                        <figcaption> 		 			
+                            <a href="image\gerald.png"></a>
+                            <p class="caption">Geralt of Rivia, a Witcher and protagonist of <i>The Witcher</i> series.</p> 		 	
+                        </figcaption> 
                     </figure>
-                <div class="read-more-target">
-                    <p>
-                    Taken in as children, witchers-to-be are subjected to intense <a href="/wiki/Alchemy" title="Alchemy">alchemical</a> processes, consumption of <a href="/wiki/Mutagen" title="Mutagen">mutagenic</a> compounds, 
+                    <input type="checkbox" class="read-more-state" id="post-1" />
+                    <h2>About the monster hunters:</h2>
+                    <br>
+            
+                    <div class="read-more-wrap"><p>A witcher (also wiccan or hexer) is someone who has undergone extensive training, 
+                    ruthless mental and physical conditioning, and mysterious rituals (which take place at "witcher schools" such as Kaer Morhen) 
+                    in preparation for becoming an itinerant monster slayer for hire. Geralt, the central character in Andrzej Sapkowski's Witcher series 
+                    and the subsequent games inspired by them, is said in the stories to be one of the greatest witchers; 
+                    he is certainly legendary, but whether famous or infamous is more open to interpretation.</p>
+                    <p>Taken in as children, witchers-to-be are subjected to intense alchemical processes, consumption of mutagenic compounds, 
                         and relentless physical and magical training to make them dangerous and highly versatile against their vast array of opponents, many of which possess superhuman speed, strength and/or other deadly powers. 
-                        These procedures ultimately mean that each fully-trained witcher is a mutant built specifically to hunt and kill inhuman prey. The key permanent results of mutations shared by all witchers include:
+                        These procedures ultimately mean that each fully-trained witcher is a mutant built specifically to hunt and kill inhuman prey.
                     </p>
-                    <ul>
-                        <li> Sterility (which partially explains selection from the outsiders, as they cannot breed to pass on their traits).
-                        </li>
-                        <li> Cat-like eyes that grant very acute nightvision - witchers can constrict their pupils to see in blinding light or open them to see in near pitch darkness. This nightvision can be further enhanced with the cat potion, but in general, it is good enough by itself to not require further enhancement.
-                        </li>
-                        <li> Tremendous resistance to disease (which functions in most cases as complete immunity) and a boosted immune system, allowing them to consume large quantities of potions that could prove easily deadly if consumed even in small amounts by a normal man.
-                        </li>
-                        <li> Exceptionally increased strength, speed, reflexes, and endurance, far beyond any normal or well-trained human, that allows them to swiftly end fights with minimal effort, and perform physical feats non-witchers couldn't hope to match. A witcher's physical skills alone are sufficient to defeat most monsters single-handedly if combined with extensive training and proper weaponry, whereas regular men could only hope to accomplish this in large groups. Witchers have also been shown to shrug off hits that would normally render normal men unconscious. Additionally, they have been known to survive the strikes of powerful monsters such as giants, or other beings possessing heruculean strength, that would otherwise kill others with a single blow.
-                        </li>
-                        <li> Having the ability to perform simple yet incredibly versatile combat magic in the form of signs. They also develop a sixth sense that allows them to "feel" things around them, be it items of importance or people's immediate intentions. This explains their uncanny ability to track and hunt people and monsters.
-                        </li>
-                        <li> Accelerated healing granting quick recovery from injuries.
-                        </li>
-                        <li> Incredibly long lifespan and prolonged youth (<a href="/wiki/Vesemir" title="Vesemir">Vesemir</a> is said to be at least a few centuries old but has the appearance of a middle-aged man).
-                        </li>
-                    </ul>
+                        <div class="read-more-target">
+                        <p>
+                         The key permanent results of mutations shared by all witchers include:
+                        </p>
+                        <ul>
+                            <li> Sterility (which partially explains selection from the outsiders, as they cannot breed to pass on their traits).
+                            </li>
+                            <li> Cat-like eyes that grant very acute nightvision - witchers can constrict their pupils to see in blinding light or open them to see in near pitch darkness. This nightvision can be further enhanced with the cat potion, but in general, it is good enough by itself to not require further enhancement.
+                            </li>
+                            <li> Tremendous resistance to disease (which functions in most cases as complete immunity) and a boosted immune system, allowing them to consume large quantities of potions that could prove easily deadly if consumed even in small amounts by a normal man.
+                            </li>
+                            <li> Exceptionally increased strength, speed, reflexes, and endurance, far beyond any normal or well-trained human, that allows them to swiftly end fights with minimal effort, and perform physical feats non-witchers couldn't hope to match. A witcher's physical skills alone are sufficient to defeat most monsters single-handedly if combined with extensive training and proper weaponry, whereas regular men could only hope to accomplish this in large groups. Witchers have also been shown to shrug off hits that would normally render normal men unconscious. Additionally, they have been known to survive the strikes of powerful monsters such as giants, or other beings possessing heruculean strength, that would otherwise kill others with a single blow.
+                            </li>
+                            <li> Having the ability to perform simple yet incredibly versatile combat magic in the form of signs. They also develop a sixth sense that allows them to "feel" things around them, be it items of importance or people's immediate intentions. This explains their uncanny ability to track and hunt people and monsters.
+                            </li>
+                            <li> Accelerated healing granting quick recovery from injuries.
+                            </li>
+                            <li> Incredibly long lifespan and prolonged youth (<a href="/wiki/Vesemir" title="Vesemir">Vesemir</a> is said to be at least a few centuries old but has the appearance of a middle-aged man).
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <label for="post-1" class="read-more-trigger"></label>
+                    
                 </div>
             </div>
-            <label for="post-1" class="read-more-trigger"></label>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
+        </section>
+        <br>
+        <br>
 
-    <div class="row" id="Games">
-        <div class="col-xs-12
+        <div class="row" id="Games">
+            <div class="col-xs-12
                         col-sm-4
                         col-md-4
                         col-lg-4 show">
 
                 <!-- Image Thumbnail -->
-            <div class="img-thumbnail" id="summary">
-                <img src="image\Rise_of_the_white_wolf_wallpaper.jpg" class="img-fluid rounded" alt="">
-                <div class="card-body">
+                <div class="img-thumbnail" id="summary">
+                    <img src="image\Rise_of_the_white_wolf_wallpaper.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
                     <h2>The Witcher</h2>
                     <h4>Rise of the White Wolf</h4>
                     <button type="button" class="btn btn-sm" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top" 
@@ -158,27 +160,27 @@
                         Through the player's actions, he will redefine those relationships and choose his path in the political intrigue that surrounds him...</h5>">
                             Plot Summary
                     </button>
-                    <div class="dropup">
+                        <div class="dropup">
                         <button class="dropbtn btn-sm">Buy Here</button>
-                        <div class="dropup-content">
-                          <a href="http://store.steampowered.com/app/20900/The_Witcher_Enhanced_Edition_Directors_Cut/" target="_blank"><i class="fab fa-steam fa-3x" id="steam"></i></a>
+                            <div class="dropup-content">
+                                <a href="http://store.steampowered.com/app/20900/The_Witcher_Enhanced_Edition_Directors_Cut/" target="_blank"><i class="fab fa-steam fa-3x" id="steam"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div><br>
-        </div>
+                </div><br>
+            </div>
             <!-- end of ROW2 Col1of3 -->
 
             <!-- ROW2 Col2of3 -->
-        <div class="col-xs-12
+            <div class="col-xs-12
                         col-sm-4
                         col-md-4
                         col-lg-4 show">
 
                 <!-- Image Thumbnail -->
-            <div class="img-thumbnail" id="summary">
-                <img src="image\the-witcher-2-assassins-of-kings.jpg" class="img-fluid rounded" alt="">
-                <div class="card-body">
+                <div class="img-thumbnail" id="summary">
+                    <img src="image\the-witcher-2-assassins-of-kings.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
                     <h2>The Witcher II</h2>
                     <h4>Assassins of Kings</h4>
                     <button type="button" class="btn btn-sm" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top" 
@@ -188,35 +190,29 @@
                         The two, along with sorceress Triss Merigold, go in search of the kingslayer...</h5>">
                             Plot Summary
                     </button>
-                    <div class="dropup">
+                        <div class="dropup">
                         <button class="dropbtn btn-sm">Buy Here</button>
-                        <div class="dropup-content">
-                          <a href="http://store.steampowered.com/app/20920/The_Witcher_2_Assassins_of_Kings_Enhanced_Edition/" target="_blank"><i class="fab fa-steam fa-3x" id="steam"></i></a>
-                          <a href="http://marketplace.xbox.com/en-sg/Product/The-Witcher-2/66acd000-77fe-1000-9115-d8024e4d0855" target="_blank"><i class="fab fa-xbox fa-3x" id="xbox"></i></a>
+                            <div class="dropup-content">
+                                <a href="http://store.steampowered.com/app/20920/The_Witcher_2_Assassins_of_Kings_Enhanced_Edition/" target="_blank"><i class="fab fa-steam fa-3x" id="steam"></i></a>
+                                <a href="http://marketplace.xbox.com/en-sg/Product/The-Witcher-2/66acd000-77fe-1000-9115-d8024e4d0855" target="_blank"><i class="fab fa-xbox fa-3x" id="xbox"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <!-- <button type="button" class="btn btn-secondary btn-sm" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top" 
-                        data-content="">
-                            Buy Here <a href="#">
-                                    <i class="fab fa-facebook-square fa-3x"></i>
-                                </a>
-                    </button> -->
                 </div>
+                <br>
             </div>
-            <br>
-        </div>
             <!-- end of ROW2 Col2of3 -->
 
             <!-- ROW2 Col3of3 -->
-        <div class="col-xs-12
+            <div class="col-xs-12
                         col-sm-4
                         col-md-4
                         col-lg-4 show">
 
                 <!-- Image Thumbnail -->
-            <div class="img-thumbnail" id="summary">
-                <img src="image\witcher-3-wild-hunt.jpg" class="img-fluid rounded" alt="">
-                <div class="card-body">
+                <div class="img-thumbnail" id="summary">
+                    <img src="image\witcher-3-wild-hunt.jpg" class="img-fluid rounded" alt="">
+                    <div class="card-body">
                     <h2>The Witcher III</h2>
                     <h4>Wild Hunt</h4>
                     <button type="button" class="btn btn-sm" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top"  
@@ -225,48 +221,105 @@
                         Ciri is a Child of the Elder Blood, the last heir to an ancient elfish bloodline with the power to manipulate space and time...</h5>">
                             Plot Summary
                     </button>
-                    <div class="dropup">
+                        <div class="dropup">
                         <button class="dropbtn btn-sm">Buy Here</button>
-                        <div class="dropup-content">
-                          <a href="http://store.steampowered.com/sub/124923/" target="_blank"><i class="fab fa-steam fa-3x" id="steam"></i></a>
-                          <a href="https://www.microsoft.com/en-sg/store/p/the-witcher-3-wild-hunt-game-of-the-year-edition/c261457lcnmj" target="_blank"><i class="fab fa-xbox fa-3x" id="xbox"></i></a>
-                          <a href="https://store.playstation.com/en-sg/product/EP4497-CUSA05571_00-ASIA0000000GOTY1" target="_blank"><i class="fab fa-playstation fa-3x" id="ps4"></i></a>
+                            <div class="dropup-content">
+                                <a href="http://store.steampowered.com/sub/124923/" target="_blank"><i class="fab fa-steam fa-3x" id="steam"></i></a>
+                                <a href="https://www.microsoft.com/en-sg/store/p/the-witcher-3-wild-hunt-game-of-the-year-edition/c261457lcnmj" target="_blank"><i class="fab fa-xbox fa-3x" id="xbox"></i></a>
+                                <a href="https://store.playstation.com/en-sg/product/EP4497-CUSA05571_00-ASIA0000000GOTY1" target="_blank"><i class="fab fa-playstation fa-3x" id="ps4"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div><br>
-        </div>
+                </div><br>
+            </div>
             <!-- end of ROW2 Col3of3 -->
-    </div>
+        </div>
         <!-- end of Row2: Image-Thumbnails -->
 
         <!-- ROW3: Video -->
-    <div class="row" id="Trailers">
-        <div class="col-6 col-md-4">
-                <!-- Embed Video -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QOac7t4kSUI" 
+        <div class="row" id="Trailers">
+            <div class="col-xs-12
+            col-sm-4
+            col-md-4
+            col-lg-4 show">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QOac7t4kSUI" 
                     allow="encrypted-media"allowfullscreen></iframe>
+                </div>
             </div>
-        </div>
-         <div class="col-6 col-md-4">
-                <!-- Embed Video -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jk5r1mP6om8" 
-                    allow="encrypted-media"allowfullscreen></iframe>
-            </div>
-        </div>
-            <div class="col-6 col-md-4">
-                <!-- Embed Video -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c0i88t0Kacs" 
-                    allow="encrypted-media"allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    <br>
-        <!-- end of ROW3: Video -->
 
+            <div class="col-xs-12
+            col-sm-4
+            col-md-4
+            col-lg-4 show">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jk5r1mP6om8" 
+                    allow="encrypted-media"allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-xs-12
+            col-sm-4
+            col-md-4
+            col-lg-4 show">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c0i88t0Kacs" 
+                    allow="encrypted-media"allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- end of ROW3: Video -->
+        
+        <div class="row" id="books">
+            <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6" id="promo">
+        <h1>The adventure began with books...</h1>
+
+           <h3>A world full of beauty and ugliness, love and war, politics, magic, mystery and everyday life where humans, 
+            elves, dwarves, halflings, ghosts and monsters exist next to one another it's not easy to be a witcher. 
+            Vilified by many and liked by few, Geralt has hard decisions to make. For not all humas are humane and not all monsters monstrous. 
+            Lines are blurred and many times the options are not purerly good or evil. 
+            What would you do if you were to choose between one evil and another? 
+            Or would you then prefer not to choose at all and pay the price of neutrality? Find out for yourself!</h3>
+        </div>
+        
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6">
+        <div id="wowslider-container1">
+            <div class="ws_images"><ul>
+                    <li><img src="image/sword.jpg" alt="sword" title="sword" id="wows1_0"/></li>
+                    <li><img src="image/lastwish.jpg" alt="lastwish" title="lastwish" id="wows1_1"/></li>
+                    <li><img src="image/season.jpg" alt="season" title="season" id="wows1_2"/></li>
+                    <li><img src="image/blood.jpg" alt="blood" title="blood" id="wows1_3"/></li>
+                    <li><img src="image/time.jpg" alt="time" title="time" id="wows1_4"/></li>
+                    <li><img src="image/baptism.jpg" alt="baptism" title="baptism" id="wows1_5"/></li>
+                    <li><a href="http://wowslider.net"><img src="image/tower.jpg" alt="image carousel" title="tower" id="wows1_6"/></a></li>
+                    <li><img src="image/lady.jpg" alt="lady" title="lady" id="wows1_7"/></li>
+                </ul></div>
+                <div class="ws_bullets"><div>
+                    <a href="#" title="sword"><span><img src="image/tooltips/sword.jpg" alt="sword"/>1</span></a>
+                    <a href="#" title="lastwish"><span><img src="image/tooltips/lastwish.jpg" alt="lastwish"/>2</span></a>
+                    <a href="#" title="season"><span><img src="image/tooltips/season.jpg" alt="season"/>3</span></a>
+                    <a href="#" title="blood"><span><img src="image/tooltips/blood.jpg" alt="blood"/>4</span></a>
+                    <a href="#" title="time"><span><img src="image/tooltips/time.jpg" alt="time"/>5</span></a>
+                    <a href="#" title="baptism"><span><img src="image/tooltips/baptism.jpg" alt="baptism"/>6</span></a>
+                    <a href="#" title="tower"><span><img src="image/tooltips/tower.jpg" alt="tower"/>7</span></a>
+                    <a href="#" title="lady"><span><img src="image/tooltips/lady.jpg" alt="lady"/>8</span></a>
+                </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
+            <div class="ws_shadow"></div>
+            </div>
+            </div>	
+        </div>
+    
+            <script type="text/javascript" src="javascript/wowslider.js"></script>
+            <script type="text/javascript" src="javascript/javascript.js"></script>
+            <br>
         <!-- ROW4: Form & Text -->
         <div class="row">
 
