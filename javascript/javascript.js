@@ -53,6 +53,10 @@ $(function () {
         });
     });
 
+    var shiftWindow = function() { scrollBy(0, -30) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+
     // RESPONSE ALERT WINDOW-------------------------------------------------------------------------------
     /* include the following HTML to use:
     <div class="form-group">
