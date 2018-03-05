@@ -12,7 +12,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding-bottom: 10vh;
+  /* padding-bottom: 10vh; */
+  border: 1px solid transparent;
 }
 
 .read-more-state {
