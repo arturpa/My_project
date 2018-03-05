@@ -1,11 +1,4 @@
-/* 
-    IBM In-house {Web Coder} course Assignment Snippet.
-    CSS styling slave file.
-    For internal IBM learning usage.
-*/
 
-
-/*  ----- HTML Body Styles -----  */
 body {
   /* Position: relative; */
   margin: 0;
@@ -673,12 +666,6 @@ color: rgb(0, 184, 0);
 		display: none
 	}
 }
-
-
-  /* Box-sizing */
-  .selector-for-some-widget {
-      box-sizing: content-box;
-  }
 
   /* LAYOUT - Responsive breakpoints */
   /* // Extra small devices (portrait phones, less than 576px) */
