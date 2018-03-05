@@ -1,7 +1,12 @@
+html {
+	font-size: 14px;
+	height: 100%;
+	/* box-sizing: border-box; */
+  }
 
 body {
   /* Position: relative; */
-  /* margin: 0; */
+  margin-bottom: 0;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: white;
@@ -12,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  /* padding-bottom: 10vh; */
+  padding-bottom: 10px;
   border: 1px solid transparent;
 }
 
@@ -22,7 +27,6 @@ body {
 
 .read-more-wrap {
   font-size: 14pt;
-  padding-left: 20px;
   /* float: left; */
 }
 
@@ -62,13 +66,27 @@ body {
   background-color: black;
   opacity: 0.8;
   color: white;
-  /* padding-left: 150px; */
-  /* padding-right: 150px; */
+  padding-left: 3vh;
+  padding-right: 2vh;
+  padding-top: 3vh;
   margin-top: 2vh;
-  /* padding-bottom: 50px; */
-  padding: 3vh 8vh 0 5vh;
-  
 }
+
+.article-thumb {
+	float: right;
+	padding-right: 4vh;
+	padding-top: 3vh;
+	margin-right: 4vh;
+  }
+  
+  #pic {
+	width: 32vh;
+  }
+  
+  .caption {
+	word-wrap: inherit;
+	max-width: 32vh;
+  }
 
 #Games {
   padding-top: 1vh;
@@ -86,25 +104,6 @@ padding-top: 1vh;
 
 .embed-responsive {
 	margin-bottom: 1vh;
-}
-
-.article-thumb {
-  float: right;
-}
-
-#pic {
-  width: 30vh;
-}
-
-.caption {
-  word-wrap: inherit;
-  max-width: 30vh;
-}
-
-html {
-  font-size: 14px;
-  height: 100%;
-  /* box-sizing: border-box; */
 }
 
 nav > a > img {
