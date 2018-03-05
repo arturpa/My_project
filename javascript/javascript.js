@@ -80,7 +80,7 @@ $(document).ready(function(){
 //URLvideo[2] = 'c0i88t0Kacs';
 var players = [];
 var tag = document.createElement('script');
-tag.src = "http://www.youtube.com/iframe_api";
+tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 		
@@ -90,7 +90,7 @@ function onYouTubeIframeAPIReady()
 	(
 		function()
 		{
-			return this.src.indexOf('http://www.youtube.com/')==0
+			return this.src.indexOf('https://www.youtube.com/')==0
 		}
 	).each
 		(
