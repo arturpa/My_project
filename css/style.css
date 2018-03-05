@@ -12,7 +12,6 @@ body {
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: white;
-  /* padding-top: 75px;  */
   background-image: url("../image/the-witcher-featured-image-970x545.jpg");
   display: block;
   float: inherit;
@@ -20,10 +19,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  padding-bottom: 10vh;
 }
-/* .display-4 {
-  font-family: "Morpheus", Arial, Helvetica, sans-serif
-} */
+
 .read-more-state {
   display: none;
 }
@@ -70,11 +68,11 @@ body {
   background-color: black;
   opacity: 0.8;
   color: white;
-  padding-left: 150px;
-  padding-right: 150px;
-  margin-top: 50px;
+  /* padding-left: 150px; */
+  /* padding-right: 150px; */
+  margin-top: 2vh;
   /* padding-bottom: 50px; */
-  padding: 50px 60px 0px 60px;
+  padding: 3vh 8vh 0 5vh;
   
 }
 
@@ -134,12 +132,6 @@ nav > a > img {
   background-repeat: no-repeat;
   background-position: center;
   height: 30vw;
-  /* background-size: 100% auto; */
-  /* background-attachment: unset; */
-  /* background-position: center; */
-  /* background-color: black; */
-  /* padding-top: 10vh; */
-  /* padding-bottom: 20vh; */
   margin-right: auto;
   margin-left: auto;
   margin-top: 10vh;
@@ -149,7 +141,6 @@ nav > a > img {
   background-color: black;
   color: white;
   font-size: 16px;
-  /* margin: 2px; */
   padding: 4px;
   border-color: silver;
 }
@@ -234,7 +225,7 @@ color: rgb(0, 184, 0);
 
 @font-face {
     font-family: Morpheus;
-    src: url(..css/MORPHEUS.TTF);
+    src: url(../css/MORPHEUS.TTF);
 }
 
 #promo {
