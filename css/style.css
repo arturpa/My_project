@@ -19,11 +19,11 @@ body {
   background-position: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* border: 1px solid transparent; */
+  border: 1px solid transparent;
 }
 
 .container-fluid {
-	padding-bottom: 5%;
+	border: 1px solid transparent;
 }
 
 .read-more-state {
