@@ -10,16 +10,16 @@ body {
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: white;
-  background-image: url("../image/the-witcher-featured-image-970x545.jpg");
+  background-image: url("../image/the-witcher.jpg");
   display: block;
   float: inherit;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
 }
 
 .container-fluid {
@@ -124,7 +124,7 @@ nav > a > img {
 } */
 
 .jumbotron {
-  background-image: url("../image/witcher_wide.jpg");
+  background-image: url("../image/witcher_wide1.jpg");
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
