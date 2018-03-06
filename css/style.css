@@ -17,13 +17,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid transparent;
 }
 
-.container-fluid {
-	border: 1px solid transparent;
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 .read-more-state {
