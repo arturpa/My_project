@@ -11,6 +11,7 @@ body {
   	font-family: "Helvetica Neue", Arial, sans-serif;
   	color: white;
   	background-image: url("../image/the-witcher.jpg");
+	background-color: transparent;
   	display: block;
   	float: inherit;
   	background-size: cover;
