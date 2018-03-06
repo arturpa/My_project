@@ -2,6 +2,8 @@ html {
 	font-size: 14px;
 	height: 100%;
 	/* box-sizing: border-box; */
+	padding-top: 10px;
+	padding-bottom: 10px;
   }
 
 body {
