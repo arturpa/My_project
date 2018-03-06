@@ -24,9 +24,9 @@ body {
 
 .clearfix:after {
 	visibility: hidden;
-	display: block;
+	display: table;
 	font-size: 0;
-	content: " ";
+	content: "";
 	clear: both;
 	height: 0;
 }
