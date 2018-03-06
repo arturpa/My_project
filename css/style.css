@@ -2,23 +2,23 @@ html {
 	font-size: 14px;
 	height: 100%;
 	/* box-sizing: border-box; */
-	padding-top: 10px;
-	padding-bottom: 10px;
   }
 
 body {
-  /* Position: relative; */
-  margin-bottom: 0;
-  min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: white;
-  background-image: url("../image/the-witcher.jpg");
-  display: block;
-  float: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  	/* Position: relative; */
+  	margin-bottom: 0;
+  	min-height: 100%;
+  	font-family: "Helvetica Neue", Arial, sans-serif;
+  	color: white;
+  	background-image: url("../image/the-witcher.jpg");
+  	display: block;
+  	float: inherit;
+  	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .clearfix:after {
@@ -31,54 +31,52 @@ body {
 }
 
 .read-more-state {
-  display: none;
+	display: none;
 }
 
 .read-more-wrap {
-  font-size: 14pt;
-  /* float: left; */
+	font-size: 14pt;
 }
 
 .read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .25s ease;
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+	content: 'Show more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+	content: 'Show less';
 }
 
 .read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  /* border-radius: .25em; */
-  margin-bottom: 3rem;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 .5em;
+	color: #666;
+	font-size: .9em;
+	line-height: 2;
+	border: 1px solid #ddd;
+	margin-bottom: 3rem;
 }
 #About {
-  background-color: black;
-  opacity: 0.8;
-  color: white;
-  padding-left: 3vh;
-  padding-right: 2vh;
-  padding-top: 3vh;
-  margin-top: 2vh;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	padding-left: 3vh;
+	padding-right: 2vh;
+	padding-top: 3vh;
+	margin-top: 2vh;
 }
 
 .article-thumb {
@@ -86,29 +84,29 @@ body {
 	padding-right: 4vh;
 	padding-top: 3vh;
 	margin-right: 4vh;
-  }
+}
   
-  #pic {
+#pic {
 	width: 32vh;
-  }
+}
   
-  .caption {
+.caption {
 	word-wrap: inherit;
 	max-width: 32vh;
-  }
+}
 
 #Games {
-  padding-top: 1vh;
+	padding-top: 1vh;
 }
 
 #summary{
-  background-color: black;
-  opacity: 0.9;
-  color: silver;
+	background-color: black;
+	opacity: 0.9;
+	color: silver;
 }
 
 #Trailers {
-padding-top: 1vh;
+	padding-top: 1vh;
 }
 
 .embed-responsive {
@@ -116,101 +114,101 @@ padding-top: 1vh;
 }
 
 nav > a > img {
-  height: 20px;
+	height: 20px;
 }
 
 /* .img-responsive {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: 100% 100%;
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 100% 100%;
 } */
 
 .jumbotron {
-  background-image: url("../image/witcher_wide1.jpg");
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 30vw;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10vh;
+	background-image: url("../image/witcher_wide1.jpg");
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30vw;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10vh;
 }
 
 .btn {
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  padding: 4px;
-  border-color: silver;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding: 4px;
+	border-color: silver;
 }
 
 .dropbtn {
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    padding-top: 4px;
-    padding-bottom: 6px;
-    margin: 4px;
-    border-color: silver;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	margin: 4px;
+	border-color: silver;
 }
 
 /* The container <div> - needed to position the dropup content */
 .dropup {
-    position: relative;
-    display: inline-block;
-    margin: 4px;
-    /* padding: 4px; */
+	position: relative;
+	display: inline-block;
+	margin: 4px;
+	/* padding: 4px; */
 }
 
 /* Dropup content (Hidden by Default) */
 .dropup-content {
-    display: none;
-    position: absolute;
-    top: auto;
-    bottom: 100%;
-    background-color: silver;
-    min-width: 90px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 20px;
-    text-align: justify;
-    -moz-text-align-last: center;
-    text-align-last: center;
+	display: none;
+	position: absolute;
+	top: auto;
+	bottom: 100%;
+	background-color: silver;
+	min-width: 90px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 20px;
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
 }
 
 /* Links inside the dropup */
 .dropup-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 /* Change color of dropup links on hover */
 .dropup-content a:hover {
-  background-color: gray;
-  border-radius: 20px;
+	background-color: gray;
+	border-radius: 20px;
 }
 
 /* Show the dropup menu on hover */
 .dropup:hover .dropup-content {
-    display: block;
+	display: block;
 }
 
 /* Change the background color of the dropup button when the dropup content is shown */
 .dropup:hover .dropbtn {
-    background-color: rgb(115, 115, 119);
+	background-color: rgb(115, 115, 119);
 }
 
 #xbox {
-color: rgb(0, 184, 0);
+	color: rgb(0, 184, 0);
 }
 
 #ps4 {
-  color: blue;
+	color: blue;
 }
 
 #books {
@@ -226,8 +224,8 @@ color: rgb(0, 184, 0);
 }
 
 @font-face {
-    font-family: Morpheus;
-    src: url(../css/MORPHEUS.TTF);
+	font-family: Morpheus;
+	src: url(../css/MORPHEUS.TTF);
 }
 
 #promo {
@@ -548,7 +546,7 @@ color: rgb(0, 184, 0);
 } */
 
 #wowslider-container1  .ws_bullets {
-    bottom: 5px;
+	bottom: 5px;
 	right:5px;
 }
 
@@ -568,13 +566,13 @@ color: rgb(0, 184, 0);
 	-moz-border-radius:0 0.2em 0.2em 0;
 	-webkit-border-radius:0 0.2em 0.2em 0;
 	box-shadow: 0.1em 0 0.15em rgba(114, 82, 45, 0.6);
-    -moz-box-shadow: 0.1em 0 0.15em rgba(114, 82, 45, 0.6);	
+	-moz-box-shadow: 0.1em 0 0.15em rgba(114, 82, 45, 0.6);	
 	-webkit-box-shadow: 0.1em 0 0.15em rgba(114, 82, 45, 0.6);	
 }
 #wowslider-container1 .ws-title div{
 	font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
 	color:#473520;
-    font-size: 0.666em;
+	font-size: 0.666em;
 	line-height: 1.1em;
 }#wowslider-container1 .ws_images > ul{
 	animation: wsBasic 32s infinite;
@@ -612,9 +610,9 @@ color: rgb(0, 184, 0);
 	visibility:hidden;
 	position:absolute;
 	box-shadow: 0 1px 3px rgba(46, 15, 0, 0.4);
-    -moz-box-shadow: 0 1px 3px rgba(46, 15, 0, 0.4);	
+	-moz-box-shadow: 0 1px 3px rgba(46, 15, 0, 0.4);	
 	-webkit-box-shadow:0 1px 3px rgba(46, 15, 0, 0.4);
-    border: 3px solid #edd8a3;
+	border: 3px solid #edd8a3;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -643,9 +641,9 @@ color: rgb(0, 184, 0);
 	position:absolute;
 	cursor:pointer;
 	box-shadow: 0 1px 3px rgba(46, 15, 0, 0.4);
-    -moz-box-shadow: 0 1px 3px rgba(46, 15, 0, 0.4);	
+	-moz-box-shadow: 0 1px 3px rgba(46, 15, 0, 0.4);	
 	-webkit-box-shadow:0 1px 3px rgba(46, 15, 0, 0.4);
-    border: 3px solid #edd8a3;
+	border: 3px solid #edd8a3;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -659,7 +657,8 @@ color: rgb(0, 184, 0);
 	background:url(./triangle.png);
 	width:15px;
 	height:6px;
-}#wowslider-container1 .ws_bulframe div div{
+}
+#wowslider-container1 .ws_bulframe div div{
 	height: auto;
 }
 
